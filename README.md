@@ -1,7 +1,7 @@
 # jdk8-arthas
 
 ## Basic Environment
-Ubuntu 22.04 LTS， Eclipse Temurin JDK8， Alibaba Arthas 3.6.7 
+Ubuntu 22.04 LTS, Eclipse Temurin JDK8, Alibaba Arthas 3.6.7, Vim
 
 ## Environment Variable
 
