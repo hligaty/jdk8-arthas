@@ -12,7 +12,7 @@ ENV PATH="${JAVA_HOME}/bin:${PATH}"
 
 COPY --from=hengyunabc/arthas:3.6.7-no-jdk /opt/arthas /opt/arthas
 
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends language-pack-zh-hans vim tzdata && \
-    rm -rf /var/lib/apt/lists/* && \
-    ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends language-pack-zh-hans vim tzdata \
+    && rm -rf /var/lib/apt/lists/* \
+    && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
